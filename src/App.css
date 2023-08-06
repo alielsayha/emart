@@ -1,0 +1,125 @@
+/* NavBar  */
+.navbar-nav a {
+  font-size: 18px;
+}
+
+/* login  */
+
+.modal-body .email {
+  display: flex;
+  /* align-items: center; */
+  position: relative;
+}
+.modal-body .email input {
+  background-color: none;
+  border-bottom: 1px solid #ccc;
+  color: #444;
+  font-size: 18px;
+}
+.modal-body .email input::placeholder {
+  color: gray;
+  font-size: 20px;
+  padding: 0px 5px;
+}
+
+/* register  */
+
+.modal-footer button {
+  background: linear-gradient(
+    to right,
+    rgba(132, 250, 176, 1),
+    rgb(39, 79, 99)
+  );
+}
+
+/* active in nav */
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #fff !important;
+  background-color: #000;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 1s linear ease-in-out;
+}
+
+/* hero  */
+
+.swiper-slide img {
+  display: block;
+  height: 60vh;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  border-radius: 0;
+  width: 25px;
+  height: 4px;
+  margin: 7px !important;
+  background-color: #ccc;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: #ccc;
+}
+
+/* loading  */
+
+.spinner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.spinner .crical {
+  border-radius: 50%;
+}
+.spinner .crical.one {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border: 4px solid transparent;
+  border-bottom: 4px solid #b23c11;
+  animation: rotate 0.6s linear infinite;
+}
+.spinner .crical.two {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  animation: rotate 0.55s linear infinite;
+  border: 4px solid transparent;
+  border-bottom: 4px solid #05473c;
+}
+.spinner .crical.three {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  animation: rotate 0.5s linear infinite;
+  border: 4px solid transparent;
+  border-bottom: 4px solid #4d0a65;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* cart  */
+
+.increase {
+  padding: 5px 10px;
+  margin: 0px 10px;
+  background-color: #3110e8;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
