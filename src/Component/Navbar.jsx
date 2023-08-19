@@ -8,7 +8,7 @@ function Navbar() {
   const infoCart = useSelector((state) => state);
   return (
     <nav className="navbar navbar-expand-lg bg-w py-3 shadow-sm">
-      <div className="container">
+      <div className="container ">
         <NavLink className="navbar-brand fw-bold fs-4" to="/">
           LA COLLECTION
         </NavLink>
@@ -23,9 +23,9 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li className="nav-item">
+        <div className="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
+            <li className="nav-item ">
               <NavLink
                 className="nav-link text-center"
                 aria-current="page"
@@ -34,7 +34,7 @@ function Navbar() {
                 Home
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item ">
               <NavLink className="nav-link text-center" to="/products">
                 Product
               </NavLink>

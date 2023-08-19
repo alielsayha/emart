@@ -23,10 +23,8 @@ function Home() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img
-            src="https://images.vexels.com/content/194698/preview/shop-online-slider-template-4f2c60.png"
-            width="100%"
-          />
+          <img src="https://images.vexels.com/content/194698/preview/shop-online-slider-template-4f2c60.png" width = '100%' />
+
         </SwiperSlide>
         <SwiperSlide>
           <img

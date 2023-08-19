@@ -123,3 +123,22 @@
   color: #fff;
   font-size: 18px;
 }
+
+
+
+@media screen and (max-width: 554px) {
+  .swiper {
+    width: 100% !important;
+    height: 40vh !important;
+  }
+  .swiper img {
+    max-width: 100%;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+  .card img{
+    height: 340px;
+  }
+}

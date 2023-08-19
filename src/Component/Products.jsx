@@ -84,7 +84,7 @@ function Products() {
                     src={Product.image}
                     className="card-img-top"
                     alt={Product.title}
-                    height="270px"
+                    height="250px"
                   />
                   <div className="card-body">
                     <h5 className="card-title">
